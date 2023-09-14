@@ -14,6 +14,7 @@ body {
 .custom-navbar {
    display: flex;
    justify-content: end;
+   cursor: pointer;
    margin-top: 1rem;
    margin-right: 1rem;
 }
@@ -68,6 +69,7 @@ body {
    margin-top: 3rem;
    margin-bottom: 2rem;
 
+
 }
 
 .resume button {
@@ -80,6 +82,7 @@ body {
    font-size: 1.25rem;
    font-weight: 500;
    color: #FFF;
+   cursor: pointer;
 
 }
 
@@ -146,6 +149,7 @@ body {
 }
 
 .work-detail-header {
+   cursor: pointer;
    width: 23.375rem;
    height: 5.3125rem;
    color: var(--Dark-Color, #21243D);
@@ -178,6 +182,7 @@ body {
 }
 
 .work-detail-02-header {
+   cursor: pointer;
    color: var(--Dark-Color, #21243D);
    font-family: Heebo;
    font-size: 1.625rem;
@@ -237,6 +242,7 @@ body {
 }
 
 .part3-card-header {
+   cursor: pointer;
    color: var(--Dark-Color, #21243D);
    font-family: Heebo;
    font-size: 1.875rem;
@@ -263,7 +269,7 @@ body {
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   
+
 }
 
 .body-text {
@@ -280,11 +286,12 @@ body {
 
 .ractangle30 {
    display: grid;
-   grid-template-areas:
-      'a b';
+   grid-template-columns: 30% 70%;
    grid-gap: 1rem;
    margin-bottom: 0.25rem;
    margin-top: 0.5rem;
+   
+   
 }
 
 .year-circle {
@@ -327,6 +334,7 @@ body {
    grid-auto-columns: max-content;
    grid-gap: 2rem;
    margin-top: 8rem;
+   cursor: pointer;
 }
 
 .footertext {
@@ -339,4 +347,5 @@ body {
    line-height: normal;
    margin-top: 0.5rem;
    margin-bottom: 3rem;
+
 }
